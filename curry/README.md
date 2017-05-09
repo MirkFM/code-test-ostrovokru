@@ -16,3 +16,5 @@ abc.curry('A', 'B', 'C'); // 'ABC'
 abcdef.curry('A')('B')('C')('D')('E')('F'); // 'ABCDEF'
 abcdef.curry('A', 'B', 'C')('D', 'E', 'F'); // 'ABCDEF'
 ```
+
+[демо](https://mirkfm.github.io/code-test-ostrovokru/curry/)

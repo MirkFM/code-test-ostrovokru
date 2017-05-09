@@ -59,4 +59,6 @@ window.onload = main;
 
 ![](layout.png)
 
-Реализовать компонент Panel, который считает клики по блоку, и выводит их количество в `.counters` 
+Реализовать компонент Panel, который считает клики по блоку, и выводит их количество в `.counters`
+
+[демо](https://mirkfm.github.io/code-test-ostrovokru/click-counter/)
