@@ -1,0 +1,54 @@
+.red {
+	background: #900;
+}
+
+.green {
+	background: #090;
+}
+
+.blue {
+	background: #009;
+}
+
+body {
+	background: #e2e2e2;
+}
+
+.wrapper {
+	width: 211px;
+	height: 213px;
+	background-color: white;
+	border: 5px solid white;
+	display: flex;
+	flex-direction: column;
+	flex: auto;
+	flex-wrap: wrap;
+}
+
+.wrapper .red,
+.wrapper .green,
+.wrapper .blue {
+	width: 50%;
+	cursor: pointer;
+}
+
+.wrapper .red,
+.wrapper .green {
+	flex: 1 0 50%;
+}
+
+.wrapper .blue {
+	flex: 1 0 100%;
+}
+
+.wrapper .red:hover,
+.wrapper .green:hover,
+.wrapper .blue:hover {
+	opacity: 0.9;
+}
+
+.wrapper .red:active,
+.wrapper .green:active,
+.wrapper .blue:active {
+	opacity: 0.8;
+}
